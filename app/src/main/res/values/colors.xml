@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="cine_black">#0B0B0D</color>
+    <color name="cine_white">#F5F5F5</color>
+    <color name="cine_hint">#B0B0B0</color>
+    <color name="cine_red">#B71C1C</color>
+    <color name="cine_red_dark">#7F0000</color>
+    <color name="cine_gold">#D4AF37</color>
+    <color name="cine_gray">#333333</color>
+</resources>

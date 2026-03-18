@@ -4,9 +4,9 @@
 
     <application
         android:allowBackup="true"
-        android:label="CineApp_Bedoya"
+        android:label="@string/app_name"
         android:supportsRtl="true"
-        android:theme="@style/Theme.Material3.DayNight.NoActionBar">
+        android:theme="@style/Theme.CineApp">
 
         <activity
             android:name=".MainActivity"
