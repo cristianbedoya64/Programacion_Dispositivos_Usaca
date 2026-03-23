@@ -50,3 +50,7 @@ botones diferenciados para las acciones CRUD.
 
 Este repositorio contiene el codigo fuente del proyecto y la documentacion correspondiente
 para su presentacion academica.
+
+## ▶️ Guia de ejecucion
+
+Consulta la guia paso a paso en [README_EJECUCION.md](README_EJECUCION.md).

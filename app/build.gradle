@@ -1,37 +1,34 @@
 plugins {
-    id("com.android.application")
+    id 'com.android.application'
 }
 
 android {
-    namespace = "com.usc.cine.bedoyamarin"
-    compileSdk = 34
+    namespace 'com.usc.cine.bedoyamarin'
+    compileSdk 34
 
     defaultConfig {
-        applicationId = "com.usc.cine.bedoyamarin"
-        minSdk = 24
-        targetSdk = 34
-        versionCode = 1
-        versionName = "1.0"
+        applicationId 'com.usc.cine.bedoyamarin'
+        minSdk 24
+        targetSdk 34
+        versionCode 1
+        versionName '1.0'
     }
 
     buildTypes {
         release {
-            isMinifyEnabled = false
-            proguardFiles(
-                getDefaultProguardFile("proguard-android-optimize.txt"),
-                "proguard-rules.pro"
-            )
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android-optimize.txt'), 'proguard-rules.pro'
         }
     }
 
     compileOptions {
-        sourceCompatibility = JavaVersion.VERSION_17
-        targetCompatibility = JavaVersion.VERSION_17
+        sourceCompatibility JavaVersion.VERSION_17
+        targetCompatibility JavaVersion.VERSION_17
     }
 }
 
 dependencies {
-    implementation("androidx.appcompat:appcompat:1.6.1")
-    implementation("com.google.android.material:material:1.11.0")
-    implementation("androidx.constraintlayout:constraintlayout:2.1.4")
+    implementation 'androidx.appcompat:appcompat:1.6.1'
+    implementation 'com.google.android.material:material:1.11.0'
+    implementation 'androidx.constraintlayout:constraintlayout:2.1.4'
 }
